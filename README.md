@@ -81,7 +81,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
 ## Usage
 
 The server should now be running locally on port 8080. You can now access the MoodCheck web app at http://localhost:8080 on your browser.
-If the port is already in use, you can change it in the /moodcheck/moodCheckServer/moodCheckerServer.js file on line 183.
+If the port is already in use, you can change it in the `/moodcheck/moodCheckServer/moodCheckerServer.js` file on line 183.
 
 ### API Endpoints
 
