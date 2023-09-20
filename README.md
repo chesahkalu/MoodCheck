@@ -60,7 +60,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
     yarn install
     ```
 
-4. Create a .env file in the project root directory and add your IBM Watson Natural Language Understanding API credentials:
+4. Create a .env file in `/moodcheck/moodCheckServer` of the project root directory and add your IBM Watson Natural Language Understanding API credentials:
 
     ```env
     API_KEY=your_api_key
