@@ -52,7 +52,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
     cd moodcheck
     ```
 
-3. Install the project dependencies using npm or yarn; on the command line, in the /moodcheck/moodCheckServer `and` /moodcheck/moodCheckClient directories run:
+3. Install the project dependencies using npm or yarn; on the command line, in the `/moodcheck/moodCheckServer` and `/moodcheck/moodCheckClient` directories run:
 
     ```bash
     npm install
