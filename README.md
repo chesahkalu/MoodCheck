@@ -144,6 +144,6 @@ Example usage:
 
 ## License
 
-This project is licensed under the Apache License, Version 2.0. Please refer to the [LICENSE](...../LICENSE) file in the parent folder for more details.
+This project is licensed under the Apache License, Version 2.0. Please refer to the [LICENSE](./LICENSE) file in the parent folder for more details.
 
 ---
