@@ -69,7 +69,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
 
     Replace `your_api_key` and `your_api_url` with your actual credentials.
 
-5. Start the MoodCheck; on the command line, in the /moodcheck/moodCheckServer directory run:
+5. Start the MoodCheck; on the command line, in the `/moodcheck/moodCheckServer` directory run:
 
     ```bash
     npm start
