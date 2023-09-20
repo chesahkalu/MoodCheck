@@ -43,7 +43,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
 1. Clone the MoodCheck repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/moodcheck.git
+    git clone https://github.com/chesahkalu/moodcheck.git
     ```
 
 2. Navigate to the project directory:
