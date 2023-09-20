@@ -32,7 +32,7 @@ MoodCheck is a web application that utilizes IBM Watson's Natural Language Under
 Before you begin, ensure you have met the following requirements:
 
 - [Node.js](https://nodejs.org/) installed on your local machine.
-- An IBM Watson Natural Language Understanding API key and service URL. Refer to the IBM Watson documentation for details on obtaining these credentials.
+- An IBM Watson Natural Language Understanding API key and service URL. Refer to the [IBM Watson documentation](https://cloud.ibm.com/apidocs/natural-language-understanding?code=node#features-examples) for details on obtaining these credentials.
 
 ---
 
@@ -69,7 +69,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
 
     Replace `your_api_key` and `your_api_url` with your actual credentials.
 
-5. Start the MoodCheck server:
+5. Start the MoodCheck; on the command line, in the /moodcheck/moodCheckServer directory run:
 
     ```bash
     npm start
@@ -81,6 +81,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
 ## Usage
 
 The server should now be running locally on port 8080. You can now access the MoodCheck web app at http://localhost:8080 on your browser.
+If the port is already in use, you can change it in the /moodcheck/moodCheckServer/moodCheckerServer.js file on line 183.
 
 ### API Endpoints
 
@@ -143,6 +144,6 @@ Example usage:
 
 ## License
 
-This project is licensed under the Apache License, Version 2.0. Please refer to the [LICENSE](../LICENSE) file in the parent folder for more details.
+This project is licensed under the Apache License, Version 2.0. Please refer to the [LICENSE](...../LICENSE) file in the parent folder for more details.
 
 ---
