@@ -4,7 +4,8 @@ MoodCheck is a web application that utilizes IBM Watson's Natural Language Under
 
 ## Screenshot
 
-![MoodCheck webpage](./moodCheckClient/public/screenshot.png)
+![MoodCheck webpage (text-input mode)](./moodCheckClient/public/screenshot_1.png)
+![MoodCheck webpage (URL-input mode)](./moodCheckClient/public/screenshot_2.png)
 
 ## Table of Contents
 
@@ -12,7 +13,7 @@ MoodCheck is a web application that utilizes IBM Watson's Natural Language Under
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Endpoints](#endpoints)
+- [API Endpoints](#api-endpoints)
 - [License](#license)
 
 ---
@@ -75,12 +76,11 @@ To install and run the MoodCheck app on your local system, follow these steps:
     npm start
     ```
 
-
 ---
 
 ## Usage
 
-The server should now be running locally on port 8080. You can now access the MoodCheck web app at http://localhost:8080 on your browser.
+The server should now be running locally on port 8080. You can now access the MoodCheck web app at <http://localhost:8080> on your browser.
 
 ### API Endpoints
 
@@ -138,7 +138,6 @@ Example usage:
     curl http://localhost:8080/text/sentiment?text=Hello, I am feeling great today!
     ```
 
-    
 ---
 
 ## License

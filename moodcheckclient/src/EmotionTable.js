@@ -1,12 +1,11 @@
 import React from 'react';
 import './bootstrap.min.css';
-
 class EmotionTable extends React.Component {
     render() {
       //Returns the emotions as an HTML table
       return (  
         <div>
-          <table className="table table-bordered">
+          <table className="table table-bordered w-50 center mx-auto table-sm table-striped">
             <tbody>
             {
               /*Write code to use the .map method that you worked on in the 
