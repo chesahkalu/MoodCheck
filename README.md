@@ -10,7 +10,8 @@ MoodCheck is a web application that utilizes IBM Watson's Natural Language Under
 
 - [Key Features](#key-features)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [Local System Installation](#installation-on-local-system)
+- [Hosting on AWS](#hosting-on-aws)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [License](#license)
@@ -36,7 +37,7 @@ Before you begin, ensure you have met the following requirements:
 
 ---
 
-## Installation
+## Installation on Local System
 
 To install and run the MoodCheck app on your local system, follow these steps:
 
@@ -74,6 +75,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
     ```bash
     npm start
     ```
+## Hosting on AWS
 
 
 ---
