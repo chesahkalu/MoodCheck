@@ -77,7 +77,7 @@ To install and run the MoodCheck app on your local system, follow these steps:
     ```
 ## Hosting on AWS
 
-The Moodcheck App is currently hosted on AWS EC2 instance. Below are the steps and directions used to host the app on AWS.
+The Moodcheck App is currently hosted on AWS EC2 instance [here](http://ec2-3-87-160-149.compute-1.amazonaws.com:8080/). Below are the steps and directions used to host the app on AWS.
 
 1. Launch an `EC2 Instance` on AWS
     - Log into the AWS Management Console and navigate to the `EC2` Dashboard.
@@ -111,7 +111,7 @@ The Moodcheck App is currently hosted on AWS EC2 instance. Below are the steps a
     sudo apt-get install git
     ```
 
-and clone the `Moodcheck` repository:
+-   and clone the `Moodcheck` repository:
 
     ```
     git clone https://github.com/chesahkalu/moodcheck.git
@@ -119,10 +119,10 @@ and clone the `Moodcheck` repository:
 
 5. Install the project dependencies using npm or yarn; on the command line, in the `/moodcheck/moodCheckServer` and `/moodcheck/moodCheckClient` directories run:
 
--   ```
+    ```
     npm install
     ```
--   Create a .env file in the /moodcheck/moodCheckServer directory and add your IBM Watson credentials.
+-   Create an .env file in the /moodcheck/moodCheckServer directory and add your IBM Watson credentials.
 
 6. Start the MoodCheck; on the command line, in the `/moodcheck/moodCheckServer` directory run:
 
