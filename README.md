@@ -12,8 +12,7 @@ MoodCheck is a web application that utilizes IBM Watson's Natural Language Under
 - [Prerequisites](#prerequisites)
 - [Local System Installation](#installation-on-local-system)
 - [Cloud Hosting on AWS](#hosting-on-aws)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
+- [API Endpoints](#api-endpoints)
 - [License](#license)
 
 ---
@@ -75,6 +74,12 @@ To install and run the MoodCheck app on your local system, follow these steps:
     ```bash
     npm start
     ```
+
+6. The server should now be running locally on port 8080. You can now access the MoodCheck web app at http://localhost:8080 on your browser.
+If the port is already in use, you can change it in the `/moodcheck/moodCheckServer/moodCheckerServer.js` file on line 183.
+
+---
+
 ## Hosting on AWS
 
 The Moodcheck App is currently hosted on AWS EC2 instance [here](http://ec2-3-87-160-149.compute-1.amazonaws.com:8080/). Below are the steps and directions used to host the app on AWS.
@@ -156,14 +161,7 @@ The Moodcheck App is currently hosted on AWS EC2 instance [here](http://ec2-3-87
 
 10. You can now access the MoodCheck web app at `http://your-instance-public-dns:8080` on your browser.
 
-
-
 ---
-
-## Usage
-
-The server should now be running locally on port 8080. You can now access the MoodCheck web app at http://localhost:8080 on your browser.
-If the port is already in use, you can change it in the `/moodcheck/moodCheckServer/moodCheckerServer.js` file on line 183.
 
 ### API Endpoints
 
@@ -220,9 +218,9 @@ Example usage:
     ```bash
     curl http://localhost:8080/text/sentiment?text=Hello, I am feeling great today!
     ```
-
     
 ---
+
 
 ## License
 
